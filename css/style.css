@@ -27,9 +27,13 @@
   color: gray;
   font-size: 25px;
 }
-.button-list{
+.button{
   display: flex;
   justify-content: space-around;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius:10px;
+  background-color: black;
 }
 .button-list button:hover,
 .button-list button:active,
