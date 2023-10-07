@@ -6,9 +6,38 @@
 .container{
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 500px;
   height: 800px;
   margin-left: 40%;
   background-color:#333344;
   border: 2px;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.header-column{
+  padding-top: 25px;
+  color: aliceblue;
+  font-size:  25px;
+}
+.header-column-2{
+  padding-top: 37px;
+  color: gray;
+  font-size: 25px;
+}
+.button-list{
+  display: flex;
+  justify-content: space-around;
+}
+.button-list button:hover,
+.button-list button:active,
+.button-list button:focus {
+  background-color: black;
+}
+.button-list h2,
+.fa-eye,
+.fa-angle-right{
+  color: hsl(85, 43%, 50%); 
 }
